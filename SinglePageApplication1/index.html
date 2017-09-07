@@ -1,0 +1,54 @@
+<!-- index.html -->
+    <!DOCTYPE html>
+    <html ng-app="app">
+    <head>
+      
+      <!-- load bootstrap and fontawesome via CDN -->
+      <link rel="stylesheet" href="assets/library/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+      
+     
+    </head>
+    <body>
+
+        <!-- HEADER AND NAVBAR -->
+        <header>
+            <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Demo WebApp</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-home"></i> Page1</a></li>
+                    <li><a href="#page2"><i class="fa fa-shield"></i> Page 2</a></li>
+                    <li><a href="#page3"><i class="fa fa-comment"></i> Page 3</a></li>
+                    <li><a href="#page4"><i class="fa fa-comment"></i> Page 4</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div id="main">
+
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+            <div ng-view></div>
+
+        </div>
+        
+        
+        
+      <!-- load angular and angular route via CDN -->
+      <script src="assets\js\angular.min.js"></script>
+      <script src="assets\js\angular-route.js"></script>
+      <script src="components\main.js"></script>
+      <script src="components\Page1\controller1.js"></script>
+      <script src="components\Page2\controller2.js"></script>
+      <script src="components\Page3\controller3.js"></script>
+      <script src="components\Page4\controller4.js"></script>
+
+    </body>
+    </html>
