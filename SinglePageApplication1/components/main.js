@@ -32,20 +32,21 @@
             });
     });
 
-    // create the controller and inject Angular's $scope
-    app.controller('controller1', function($scope) {
-        // create a message to display in our view
-        $scope.message = 'Hi!!I am Page 1';
-    });
-
-   /* app.controller('controller2', function($scope) {
-        $scope.message = 'Look! I am Page 2';
-    });*/
-
-    app.controller('controller3', function($scope) {
-        $scope.message = 'Hey! I am page 3.';
-    });
-   
-    app.controller('controller4', function($scope) {
-        $scope.message = 'Hey! I am page 4.';
-    });
+//    // create the controller and inject Angular's $scope
+//    app.controller('controller1', function($scope) {
+//        // create a message to display in our view
+//        $scope.message = 'Hi!!I am Page 1';
+//        
+//    });
+//
+//   /* app.controller('controller2', function($scope) {
+//        $scope.message = 'Look! I am Page 2';
+//    });
+//
+//    app.controller('controller3', function($scope) {
+//        $scope.message = 'Hey! I am page 3.';
+//    });
+//   
+//    app.controller('controller4', function($scope) {
+//        $scope.message = 'Hey! I am page 4.';
+//    });*/
