@@ -35,7 +35,7 @@
     // create the controller and inject Angular's $scope
     app.controller('controller1', function($scope) {
         // create a message to display in our view
-        $scope.message = 'Hi!!I am Page 111';
+        $scope.message = 'Hi!!I am Page 1';
     });
 
    /* app.controller('controller2', function($scope) {

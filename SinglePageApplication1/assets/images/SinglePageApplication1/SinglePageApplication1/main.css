@@ -1,0 +1,88 @@
+@import url(../SinglePageApplication1/assets/font/ExodusDemo-Stencil.otf);
+@import url(../SinglePageApplication1/assets/font/Montserrat-Black.otf);
+@import url(../SinglePageApplication1/assets/font/Montserrat-Regular.otf);
+@import url(../SinglePageApplication1/assets/font/Montserrat-Bold.otf);
+@import url(../SinglePageApplication1/assets/font/Montserrat-Hairline.otf);
+@import url(../SinglePageApplication1/assets/font/Montserrat-Light.otf);
+
+*{
+	font-family: Montserrat;
+}
+.judges-container{
+	background-color: white;
+	padding-bottom:44px;
+	  border-bottom : solid 1px #dddddd;
+}
+.panel-header{
+	padding-top:52px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.panel-header div:first-child{
+	
+	color:#757575;
+	font-size:2rem;
+}
+.panel-bottom>div,
+.panel-header div:last-child{
+
+	color:#757575;
+	font-size: 0.875rem;
+}
+.members{
+	display:flex;
+	justify-content: space-around;
+	margin: 54px 40px 0 40px;
+	padding-bottom:54px;
+
+	border-bottom: solid 1px #dddddd;
+}
+.member{
+	display:flex;
+	align-items: center;
+}
+.member-image>img{
+	display: block;
+}
+.member-image{
+	height:80px;
+	width: 80px;
+	border:1px solid #dddddd;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.member-details{
+	padding-left:15px;
+}
+.member-details div:first-child{
+
+	color:#757575;
+	font-size:1.25rem;
+}
+.member-details div:last-child{
+	color:#757575;
+	font-size:0.875rem;
+}
+.panel-bottom{
+	 font-family: Montserrat;
+	padding-top:52px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.panel-bottom>button{
+	font-size: 1rem;
+	font-weight: 600;
+	color:#4a4a4a;
+	margin-top:36px;
+	width: 176.8px;
+	height: 45px;
+	border-radius: 100px;
+	border:none;
+	background-color: #2effb5;
+}

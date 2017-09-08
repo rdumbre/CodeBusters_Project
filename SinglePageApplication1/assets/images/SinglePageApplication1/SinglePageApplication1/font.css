@@ -1,0 +1,19 @@
+@font-face {
+font-family: DeliciousRomanRegular;
+src: url(/Delicious-Roman-R.otf);
+}
+
+@font-face {
+font-family: DeliciousRomanBold;
+src: url(/Delicious-Roman-B.otf);
+}
+
+@font-face {
+font-family: DeliciousRomanItalic;
+src: url(/Delicious-Roman-I.otf);
+}
+
+@font-face {
+font-family: DeliciousRomanBoldItalic;
+src: url(/Delicious-Roman-BI.otf);
+}

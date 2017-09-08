@@ -1,0 +1,89 @@
+ <!-- index.html -->
+    <!DOCTYPE html>
+    <html ng-app="app">
+        <head>
+            
+            <!-- load bootstrap and fontawesome via CDN -->
+            <link rel="stylesheet" href="assets/library/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+            <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />-->
+            <style>
+                .footer-container{
+                background-color: #f9f9f9;
+                }
+                .footer-heading{
+                font-family: Montserrat;
+                font-size: 20px;
+                letter-spacing: 2.5px;
+                text-align: left;
+                color: #757575;
+                }
+                .footer-text{
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.57;
+                letter-spacing: 1.8px;
+                text-align: left;
+                color: #757575;
+                width:19rem;
+                }
+                .footer-line{
+                border: solid 1px #dddddd;
+                margin-top: 50px;
+                margin-bottom: 30px;
+                }
+                .footer-note{
+                font-family: FrutigerNextPro;
+                font-size: 10px;
+                font-weight: 300;
+                line-height: 1.4;
+                text-align: left;
+                color: #3f3f3f;
+                }
+                .footer-icons{
+                height:30px;
+                width:31px;
+                list-style-type: none;
+                float: left;
+                margin: 0 11px;
+                }
+                .footer-social{
+                    float:right;
+                }
+                
+            </style>
+            
+        </head>
+        <body>
+            <footer class="footer-container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="footer-heading">Lorem ipsum</h2>
+                        <p class="footer-text">Lorem ipsum dolor sit Nesciunt itaque, alias possimus </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="footer-heading">Lorem ipsum</h2>
+                        <p class="footer-text">Lorem ipsum dolor sit Nesciunt itaque, alias possimus </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="footer-heading">Lorem ipsum</h2>
+                        <p class="footer-text">Lorem ipsum dolor sit Nesciunt itaque, alias possimus </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="footer-heading">Lorem ipsum</h2>
+                        <p class="footer-text">Lorem ipsum dolor sit Nesciunt itaque, alias possimus </p>
+                    </div>
+                </div>
+                <hr class="footer-line"/>
+                <div class="footer-note">Copyright &copy; 2017 Deloitte Development LLC. All rights reserved.
+                    <ul class="footer-social">
+                        <li class="footer-icons"><img src="../SinglePageApplication1/assets/icons/facebook.svg"/></li>
+                        <li class="footer-icons"><img src="../SinglePageApplication1/assets/icons/twitter.svg"/></li>
+                        <li class="footer-icons"><img src="../SinglePageApplication1/assets/icons/instagram.svg"/></li>
+                        <li class="footer-icons"><img src="../SinglePageApplication1/assets/icons/message.svg"/></li>
+                    </ul>
+                </div>
+            </footer>
+        </body>
+    </html>
